@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "node_modules/.bin/gulp clean",
     "dev": "node_modules/.bin/gulp dev",
-    "build": "node_modules/.bin/tsc -p ./src/app"
+    "build": "node_modules/.bin/tsc -p ./src",
+    "watch": "node_modules/.bin/tsc -w -p ./src"
   },
   "author": "",
   "license": "ISC",
